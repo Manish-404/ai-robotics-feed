@@ -2,55 +2,134 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AI and Robotics Daily</title>
 <meta name="description" content="A daily feed of AI and robotics headlines and a growing list of free APIs.">
+<meta property="og:title" content="AI and Robotics Daily">
+<meta property="og:description" content="Fresh AI and robotics headlines and a free API to try, added most days.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f4f6fb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%233360f0'/%3E%3Cstop offset='1' stop-color='%230fb5d8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cg fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M32 22v-8h-6'/%3E%3Crect x='14' y='22' width='36' height='26' rx='6'/%3E%3Cpath d='M9 35h5M50 35h5M25 33v4M39 33v4'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<script>
+// set the colour mode before first paint so there is no flash
+(function () {
+  var m = null;
+  try { m = localStorage.getItem("theme"); } catch (e) {}
+  if (m !== "light" && m !== "dark") m = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  var r = document.documentElement;
+  r.dataset.mode = m;
+  var t = document.querySelector('meta[name="theme-color"]');
+  if (t) t.content = m === "dark" ? "#070a13" : "#f4f6fb";
+  if ("IntersectionObserver" in window) r.classList.add("js-reveal");
+})();
+</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <h1>AI &amp; Robotics Daily</h1>
-    <p class="lede">Fresh AI and robotics headlines and a new free API to try, added most days. Like, share and save what you want to keep.</p>
+<div class="scroll-line" id="scrollLine" aria-hidden="true"></div>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" id="brand" href="#" aria-label="AI and Robotics Daily, back to top">
+      <span class="logo" aria-hidden="true">
+        <svg class="i" viewBox="0 0 24 24" focusable="false"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2M20 14h2M15 13v2M9 13v2"/></svg>
+      </span>
+      <span>AI &amp; Robotics <b>Daily</b></span>
+    </a>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch between light and dark theme" title="Switch theme">
+      <svg class="i i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      <svg class="i i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Featured stories" hidden>
-    <div class="slides" id="slides"></div>
-    <button class="nav prev" id="prev" aria-label="Previous slide">&#8249;</button>
-    <button class="nav next" id="next" aria-label="Next slide">&#8250;</button>
-    <div class="dots" id="dots"></div>
+<main>
+  <section class="hero">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="wrap hero-grid" id="heroGrid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" id="updatedDot"></span><span id="updatedText">Loading the latest</span></p>
+        <h1>Your daily dose of <span class="grad">AI</span> &amp; <span class="grad warm">robotics</span></h1>
+        <p class="lede">Fresh headlines from trusted sources and a free API to try, added most days. Like, share and save what you want to keep.</p>
+        <dl class="stats">
+          <div class="stat"><dt>Headlines</dt><dd id="statNews">0</dd></div>
+          <div class="stat"><dt>Free APIs</dt><dd id="statApis">0</dd></div>
+          <div class="stat"><dt>New today</dt><dd id="statToday">0</dd></div>
+        </dl>
+      </div>
+
+      <section class="carousel loading" id="carousel" aria-roledescription="carousel" aria-label="Featured stories">
+        <div class="slides" id="slides"></div>
+        <button class="nav-btn prev" id="prev" type="button" aria-label="Previous slide" hidden>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="nav-btn next" id="next" type="button" aria-label="Next slide" hidden>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+        <div class="dots" id="dots"></div>
+        <div class="bar" id="bar" aria-hidden="true"><i></i></div>
+      </section>
+    </div>
   </section>
 
-  <nav class="tabs" id="tabs" role="tablist" aria-label="Sections">
-    <button role="tab" data-tab="today">What's new today</button>
-    <button role="tab" data-tab="ai">AI</button>
-    <button role="tab" data-tab="robotics">Robotics</button>
-    <button role="tab" data-tab="apis">Free APIs</button>
-    <button role="tab" data-tab="favs">Favourites <span class="badge" id="favCount">0</span></button>
-  </nav>
-
-  <div class="tools">
-    <input id="search" type="search" placeholder="Search this tab" aria-label="Search this tab">
-    <select id="category" aria-label="API category" hidden></select>
-    <div class="export" id="exportBar" hidden>
-      <span>Export:</span>
-      <button id="exJson">JSON</button>
-      <button id="exCsv">CSV</button>
-      <button id="exMd">Markdown</button>
-      <label class="btn">Import JSON<input id="importFile" type="file" accept="application/json,.json" hidden></label>
+  <div class="tabbar" id="tabbar">
+    <div class="wrap bar-inner">
+      <nav class="tabs" id="tabs" role="tablist" aria-label="Sections">
+        <span class="ink" id="ink" aria-hidden="true"></span>
+        <button role="tab" type="button" id="tab-today" data-tab="today" aria-selected="true">What's new today <em class="n" data-n="today">0</em></button>
+        <button role="tab" type="button" id="tab-ai" data-tab="ai" aria-selected="false" tabindex="-1">AI <em class="n" data-n="ai">0</em></button>
+        <button role="tab" type="button" id="tab-robotics" data-tab="robotics" aria-selected="false" tabindex="-1">Robotics <em class="n" data-n="robotics">0</em></button>
+        <button role="tab" type="button" id="tab-apis" data-tab="apis" aria-selected="false" tabindex="-1">Free APIs <em class="n" data-n="apis">0</em></button>
+        <button role="tab" type="button" id="tab-favs" data-tab="favs" aria-selected="false" tabindex="-1">Favourites <em class="n" data-n="favs">0</em></button>
+      </nav>
+      <div class="search">
+        <label class="sr" for="search">Search this tab</label>
+        <svg class="i lead" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="search" type="search" placeholder="Search this tab" autocomplete="off" spellcheck="false">
+        <kbd aria-hidden="true">/</kbd>
+        <button class="clear" id="clearSearch" type="button" aria-label="Clear search">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
     </div>
   </div>
 
-  <p class="note" id="note" role="status"></p>
-  <div class="grid" id="grid"></div>
-  <div class="more"><button id="more" hidden>Load more</button></div>
+  <div class="wrap">
+    <div class="subtools">
+      <div class="select" id="categoryWrap" hidden>
+        <select id="category" aria-label="API category"></select>
+      </div>
+      <div class="group" id="exportBar" hidden>
+        <span>Export favourites</span>
+        <button class="btn" id="exJson" type="button"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>JSON</button>
+        <button class="btn" id="exCsv" type="button"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>CSV</button>
+        <button class="btn" id="exMd" type="button"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Markdown</button>
+        <label class="btn" for="importFile"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>Import JSON<input id="importFile" type="file" accept="application/json,.json" hidden></label>
+      </div>
+    </div>
+
+    <p class="note" id="note" role="status"></p>
+
+    <div class="grid" id="grid" role="tabpanel" aria-labelledby="tab-today" aria-busy="true">
+      <article class="card skel" aria-hidden="true"><div class="media sk"></div><div class="body"><div class="line sk w4"></div><div class="line sk h w8"></div><div class="line sk"></div><div class="line sk w6"></div></div></article>
+      <article class="card skel" aria-hidden="true"><div class="media sk"></div><div class="body"><div class="line sk w4"></div><div class="line sk h w8"></div><div class="line sk"></div><div class="line sk w6"></div></div></article>
+      <article class="card skel" aria-hidden="true"><div class="media sk"></div><div class="body"><div class="line sk w4"></div><div class="line sk h w8"></div><div class="line sk"></div><div class="line sk w6"></div></div></article>
+    </div>
+    <div class="more"><button class="btn" id="more" type="button" hidden>Show more</button></div>
+  </div>
 </main>
 
 <footer class="wrap foot">
-  <p>Likes and favourites are saved only in this browser. Headlines link to the original publishers.</p>
+  <p>Headlines link to their original publishers. Likes and favourites are saved only in this browser.</p>
+  <p>Built with plain HTML, CSS and JavaScript.</p>
 </footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="app.js"></script>
 </body>
