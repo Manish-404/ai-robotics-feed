@@ -23,7 +23,7 @@ button:hover, .btn:hover { border-color: var(--accent); }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* carousel */
-.carousel { position: relative; border-radius: 14px; overflow: hidden; background: #000; margin-bottom: 16px; aspect-ratio: 16 / 6; min-height: 220px; }
+.carousel { position: relative; border-radius: 14px; overflow: hidden; background: #000; margin-bottom: 16px; aspect-ratio: 16 / 6; min-height: 220px; touch-action: pan-y pinch-zoom; }
 .slides { display: flex; height: 100%; transition: transform .45s ease; }
 .slide { position: relative; flex: 0 0 100%; height: 100%; color: #fff; text-decoration: none; display: block; }
 .slide img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -35,6 +35,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .dots { position: absolute; top: 10px; right: 12px; display: flex; gap: 6px; }
 .dots button { width: 10px; height: 10px; padding: 0; border-radius: 50%; border: 0; background: rgba(255,255,255,.5); }
 .dots button[aria-current="true"] { background: #fff; }
+.pill { background: rgba(0,0,0,.55); color: #fff; font-size: .8rem; line-height: 1.5; padding: 1px 10px; border-radius: 999px; }
+.slide img { -webkit-user-drag: none; user-select: none; }
 @media (max-width: 640px) { .carousel { aspect-ratio: 4 / 3; } .slide .cap { padding: 32px 48px 20px; } }
 
 /* tabs and tools */
