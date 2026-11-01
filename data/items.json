@@ -1,0 +1,29 @@
+[
+ {
+  "id": "news-be77c96c39",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Our newest AI Quest: Mapping the human brain",
+  "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+  "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+  "published": "2026-10-26",
+  "added": "2026-11-01"
+ },
+ {
+  "id": "api-9e995bee1a",
+  "kind": "api",
+  "topic": "Games & Comics",
+  "title": "Riot Games",
+  "summary": "League of Legends Game Information",
+  "url": "https://developer.riotgames.com/",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-01",
+  "published": "",
+  "auth": "apiKey",
+  "https": "Yes",
+  "cors": "Unknown"
+ }
+]

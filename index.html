@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI and Robotics Daily</title>
+<meta name="description" content="A daily feed of AI and robotics headlines and a growing list of free APIs.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>AI &amp; Robotics Daily</h1>
+    <p class="lede">Fresh AI and robotics headlines and a new free API to try, added most days. Like, share and save what you want to keep.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Featured today" hidden>
+    <div class="slides" id="slides"></div>
+    <button class="nav prev" id="prev" aria-label="Previous slide">&#8249;</button>
+    <button class="nav next" id="next" aria-label="Next slide">&#8250;</button>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" data-tab="today">What's new today</button>
+    <button role="tab" data-tab="ai">AI</button>
+    <button role="tab" data-tab="robotics">Robotics</button>
+    <button role="tab" data-tab="apis">Free APIs</button>
+    <button role="tab" data-tab="favs">Favourites <span class="badge" id="favCount">0</span></button>
+  </nav>
+
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search this tab" aria-label="Search this tab">
+    <select id="category" aria-label="API category" hidden></select>
+    <div class="export" id="exportBar" hidden>
+      <span>Export:</span>
+      <button id="exJson">JSON</button>
+      <button id="exCsv">CSV</button>
+      <button id="exMd">Markdown</button>
+      <label class="btn">Import JSON<input id="importFile" type="file" accept="application/json,.json" hidden></label>
+    </div>
+  </div>
+
+  <p class="note" id="note" role="status"></p>
+  <div class="grid" id="grid"></div>
+  <div class="more"><button id="more" hidden>Load more</button></div>
+</main>
+
+<footer class="wrap foot">
+  <p>Likes and favourites are saved only in this browser. Headlines link to the original publishers.</p>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
