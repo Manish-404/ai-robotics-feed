@@ -1,5 +1,17 @@
 [
  {
+  "id": "news-bf12c37997",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
+  "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us…",
+  "url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/colorful-boston-dynamics-robot-dog-plays-with-a-tire-on-an-outdoor-basketball-court-while-someone-with-a-hockey-stick-interferes.webp?id=68558917&width=980",
+  "published": "2026-10-30",
+  "added": "2026-11-02"
+ },
+ {
   "id": "news-be77c96c39",
   "kind": "news",
   "topic": "ai",
