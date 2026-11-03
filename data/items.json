@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-b810030289",
+  "kind": "news",
+  "topic": "ai",
+  "title": "The latest AI news we announced in October 2026",
+  "summary": "Here are Google’s latest AI updates from October 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+  "published": "2026-11-02",
+  "added": "2026-11-03"
+ },
+ {
+  "id": "news-1698e31ea5",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+  "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on…",
+  "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/humanoid-robot-and-robot-dog-meet-a-woman-on-a-sunny-terrace-at-sunset.jpg?id=68002098&width=980",
+  "published": "2026-10-27",
+  "added": "2026-11-03"
+ },
+ {
   "id": "news-bf12c37997",
   "kind": "news",
   "topic": "robotics",
