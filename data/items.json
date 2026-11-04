@@ -1,5 +1,41 @@
 [
  {
+  "id": "news-1778fb273d",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Southeast Asia’s digital economy to hit $368 billion",
+  "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+  "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
+  "published": "2026-10-21",
+  "added": "2026-11-04"
+ },
+ {
+  "id": "news-f900d55946",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
+  "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us…",
+  "url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/red-quadruped-robot-facing-a-large-rubik-s-cube-on-an-outdoor-tiled-surface.png?id=68512950&width=980",
+  "published": "2026-10-23",
+  "added": "2026-11-04"
+ },
+ {
+  "id": "news-12feaf67dd",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Building connections across the research infrastructure",
+  "summary": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+  "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+  "source": "MIT News AI",
+  "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
+  "published": "2026-11-04",
+  "added": "2026-11-04"
+ },
+ {
   "id": "news-b810030289",
   "kind": "news",
   "topic": "ai",
