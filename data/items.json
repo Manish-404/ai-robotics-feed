@@ -1,5 +1,41 @@
 [
  {
+  "id": "news-82196d4ece",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+  "summary": "",
+  "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+  "source": "Hugging Face Blog",
+  "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
+  "published": "2026-11-06",
+  "added": "2026-11-06"
+ },
+ {
+  "id": "news-16de4ca3c2",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Clearing up a robot’s fuzzy memory",
+  "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+  "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+  "source": "MIT News AI",
+  "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
+  "published": "2026-11-05",
+  "added": "2026-11-06"
+ },
+ {
+  "id": "news-3665ca3c2f",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+  "summary": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds were scared…",
+  "url": "https://spectrum.ieee.org/drone-delivery-noise",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/a-worker-walking-amid-several-delivery-drones-on-a-launchpad-in-a-chinese-city.jpg?id=68592213&width=980",
+  "published": "2026-11-05",
+  "added": "2026-11-06"
+ },
+ {
   "id": "news-1778fb273d",
   "kind": "news",
   "topic": "ai",
