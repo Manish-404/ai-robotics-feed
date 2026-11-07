@@ -1,5 +1,17 @@
 [
  {
+  "id": "news-ba5f1cdb14",
+  "kind": "news",
+  "topic": "ai",
+  "title": "How to predict the behavior of molecules from scant data",
+  "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+  "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+  "source": "MIT News AI",
+  "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+  "published": "2026-11-07",
+  "added": "2026-11-07"
+ },
+ {
   "id": "news-82196d4ece",
   "kind": "news",
   "topic": "ai",
