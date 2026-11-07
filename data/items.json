@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-f5b5380425",
+  "kind": "api",
+  "topic": "Business",
+  "title": "markerapi",
+  "summary": "Trademark Search",
+  "url": "https://markerapi.com",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-07",
+  "published": "",
+  "auth": "No",
+  "https": "No",
+  "cors": "Unknown"
+ },
+ {
   "id": "news-ba5f1cdb14",
   "kind": "news",
   "topic": "ai",
