@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-b91db1d100",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Powering up for a pivotal moment",
+  "summary": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+  "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+  "source": "MIT News AI",
+  "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative.jpg?itok=D__3CViF",
+  "published": "2026-11-03",
+  "added": "2026-11-08"
+ },
+ {
+  "id": "news-be1ba71e55",
+  "kind": "news",
+  "topic": "ai",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "summary": "",
+  "url": "https://huggingface.co/blog/allenai/toyblocks",
+  "source": "Hugging Face Blog",
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+  "published": "2026-11-06",
+  "added": "2026-11-08"
+ },
+ {
   "id": "api-f5b5380425",
   "kind": "api",
   "topic": "Business",
