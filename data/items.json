@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-653725f82e",
+  "kind": "api",
+  "topic": "Geocoding",
+  "title": "sthan.io India PIN Code Autocomplete",
+  "summary": "Autocomplete Indian PIN codes as users type",
+  "url": "https://sthan.io/products/pincode-autocomplete-ind",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-08",
+  "published": "",
+  "auth": "apiKey",
+  "https": "Yes",
+  "cors": "No"
+ },
+ {
   "id": "news-b91db1d100",
   "kind": "news",
   "topic": "ai",
