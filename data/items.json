@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-367688f0e9",
+  "kind": "api",
+  "topic": "Shopping",
+  "title": "OpenShopGraph",
+  "summary": "Source-dated return, shipping and payment facts for online shops",
+  "url": "https://openshopgraph.com/en/developers/",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-09",
+  "published": "",
+  "auth": "No",
+  "https": "Yes",
+  "cors": "Unknown"
+ },
+ {
   "id": "api-653725f82e",
   "kind": "api",
   "topic": "Geocoding",
