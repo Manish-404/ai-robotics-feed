@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-0bf268a656",
+  "kind": "api",
+  "topic": "Health",
+  "title": "openFDA",
+  "summary": "Public FDA data about drugs, devices and foods",
+  "url": "https://open.fda.gov",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-10",
+  "published": "",
+  "auth": "apiKey",
+  "https": "Yes",
+  "cors": "Unknown"
+ },
+ {
   "id": "news-8122ffda50",
   "kind": "news",
   "topic": "robotics",
