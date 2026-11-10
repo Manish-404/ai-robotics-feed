@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-8122ffda50",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+  "summary": "NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. The post NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL appeared first on…",
+  "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+  "source": "The Robot Report",
+  "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg",
+  "published": "2026-11-10",
+  "added": "2026-11-10"
+ },
+ {
+  "id": "news-63c3d56bc7",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+  "published": "2026-11-05",
+  "added": "2026-11-10"
+ },
+ {
   "id": "api-367688f0e9",
   "kind": "api",
   "topic": "Shopping",
