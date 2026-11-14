@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-0d9fae548b",
+  "kind": "news",
+  "topic": "ai",
+  "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+  "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing…",
+  "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+  "source": "IEEE Spectrum AI",
+  "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-planet-earth-surrounded-by-educational-objects-such-as-a-microscope-beaker-and-textbook.jpg?id=68675346&width=980",
+  "published": "2026-11-14",
+  "added": "2026-11-14"
+ },
+ {
+  "id": "news-459a57b475",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+  "published": "2026-11-12",
+  "added": "2026-11-14"
+ },
+ {
   "id": "api-0bf268a656",
   "kind": "api",
   "topic": "Health",
