@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-d650e1e9b0",
+  "kind": "api",
+  "topic": "Data Validation",
+  "title": "Veriport",
+  "summary": "EU VAT validation (VIES), VAT rates, IBAN validation, French company data",
+  "url": "https://veriport.io/docs",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-14",
+  "published": "",
+  "auth": "apiKey",
+  "https": "Yes",
+  "cors": "Yes"
+ },
+ {
   "id": "news-0d9fae548b",
   "kind": "news",
   "topic": "ai",
