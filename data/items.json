@@ -1,5 +1,41 @@
 [
  {
+  "id": "news-471fb334b4",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+  "summary": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store. The post Six AGIBOT G2 Robots Complete 1,730 Tasks…",
+  "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+  "source": "The Robot Report",
+  "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/agilink-hero.jpg",
+  "published": "2026-11-13",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "news-0967f49901",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+  "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us…",
+  "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/rendering-of-a-lunar-rover-with-a-drill-as-it-explores-a-snowy-crater-under-a-starry-night-sky.png?id=68673117&width=980",
+  "published": "2026-11-13",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "news-8e4104a923",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "source": "Google AI Blog",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+  "published": "2026-11-11",
+  "added": "2026-11-15"
+ },
+ {
   "id": "api-d650e1e9b0",
   "kind": "api",
   "topic": "Data Validation",
