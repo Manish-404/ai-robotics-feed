@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-1bd711a21d",
+  "kind": "api",
+  "topic": "Development",
+  "title": "Netlify",
+  "summary": "Netlify is a hosting service for the programmable web",
+  "url": "https://docs.netlify.com/api/get-started/",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-15",
+  "published": "",
+  "auth": "OAuth",
+  "https": "Yes",
+  "cors": "Unknown"
+ },
+ {
   "id": "news-471fb334b4",
   "kind": "news",
   "topic": "robotics",
