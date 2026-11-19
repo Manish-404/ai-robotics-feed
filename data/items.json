@@ -1,5 +1,41 @@
 [
  {
+  "id": "news-634bef00fa",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "BiCAT: Bimanual Coordination Action Tokenization",
+  "summary": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and…",
+  "url": "https://arxiv.org/abs/2611.23499",
+  "source": "arXiv cs.RO",
+  "image": "",
+  "published": "2026-11-19",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "news-bcd79b1222",
+  "kind": "news",
+  "topic": "ai",
+  "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+  "summary": "Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage…",
+  "url": "https://arxiv.org/abs/2611.21682",
+  "source": "arXiv cs.AI",
+  "image": "",
+  "published": "2026-11-19",
+  "added": "2026-11-19"
+ },
+ {
+  "id": "news-083251a67b",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Startup Makes Headway Towards Formalizing All of Math With AI",
+  "summary": "As Axiom Math ’s AI swarm was putting the final touches on the automatic verification of 15,000-page proof of the Classification of Finite Simple Groups (CFSG) , colloquially referred to as the ‘enormous theorem’, on…",
+  "url": "https://spectrum.ieee.org/enormous-theorem-ai",
+  "source": "IEEE Spectrum AI",
+  "image": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?id=68692858&width=980",
+  "published": "2026-11-18",
+  "added": "2026-11-19"
+ },
+ {
   "id": "api-1bd711a21d",
   "kind": "api",
   "topic": "Development",
