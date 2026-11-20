@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-188fb5d6cf",
+  "kind": "api",
+  "topic": "Jobs",
+  "title": "Reed",
+  "summary": "Job board aggregator",
+  "url": "https://www.reed.co.uk/developers",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-20",
+  "published": "",
+  "auth": "apiKey",
+  "https": "Yes",
+  "cors": "Unknown"
+ },
+ {
   "id": "news-634bef00fa",
   "kind": "news",
   "topic": "robotics",
