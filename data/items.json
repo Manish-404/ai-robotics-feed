@@ -1,5 +1,17 @@
 [
  {
+  "id": "news-3640b1da9f",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "The manufacturing data gap holding back physical AI",
+  "summary": "Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The…",
+  "url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+  "source": "The Robot Report",
+  "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/IMG_6760-e1795299517703.jpeg",
+  "published": "2026-11-22",
+  "added": "2026-11-22"
+ },
+ {
   "id": "api-188fb5d6cf",
   "kind": "api",
   "topic": "Jobs",
