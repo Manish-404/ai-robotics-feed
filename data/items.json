@@ -1,5 +1,20 @@
 [
  {
+  "id": "api-b12017fbab",
+  "kind": "api",
+  "topic": "Food & Drink",
+  "title": "Rustybeer",
+  "summary": "Beer brewing tools",
+  "url": "https://rustybeer.herokuapp.com/",
+  "source": "public-apis",
+  "image": "",
+  "added": "2026-11-23",
+  "published": "",
+  "auth": "No",
+  "https": "Yes",
+  "cors": "No"
+ },
+ {
   "id": "news-3640b1da9f",
   "kind": "news",
   "topic": "robotics",
