@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-ca38829e73",
+  "kind": "news",
+  "topic": "ai",
+  "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+  "summary": "",
+  "url": "https://huggingface.co/blog/allenai/robotrack",
+  "source": "Hugging Face Blog",
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+  "published": "2026-11-23",
+  "added": "2026-11-24"
+ },
+ {
+  "id": "news-cec9c127e6",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+  "summary": "John Deere said the deal strengthens its ability to help growers make more informed decisions throughout the growing season. The post How does Orchard AI fit into John Deere’s technology portfolio? appeared first on…",
+  "url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+  "source": "The Robot Report",
+  "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/orchard-ai-tractor-featured.jpg",
+  "published": "2026-11-24",
+  "added": "2026-11-24"
+ },
+ {
   "id": "api-b12017fbab",
   "kind": "api",
   "topic": "Food & Drink",
