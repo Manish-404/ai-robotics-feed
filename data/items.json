@@ -1,5 +1,17 @@
 [
  {
+  "id": "news-d43a285e75",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "How Vention is cutting factory programming from weeks to minutes",
+  "summary": "Etienne Lacroix explains why AI deployment—not just better models—will define the future of industrial automation. The post How Vention is cutting factory programming from weeks to minutes appeared first on The Robot…",
+  "url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+  "source": "The Robot Report",
+  "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/episode-271-featured.jpg",
+  "published": "2026-11-25",
+  "added": "2026-11-26"
+ },
+ {
   "id": "news-ca38829e73",
   "kind": "news",
   "topic": "ai",
