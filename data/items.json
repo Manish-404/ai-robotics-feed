@@ -1,5 +1,29 @@
 [
  {
+  "id": "news-5aa9e3310d",
+  "kind": "news",
+  "topic": "ai",
+  "title": "Context Scaling: A New Frontier of AI Scaling",
+  "summary": "Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces,…",
+  "url": "https://arxiv.org/abs/2611.33160",
+  "source": "arXiv cs.AI",
+  "image": "",
+  "published": "2026-11-27",
+  "added": "2026-11-27"
+ },
+ {
+  "id": "news-eae8a16c09",
+  "kind": "news",
+  "topic": "robotics",
+  "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+  "summary": "On 5 November, 10 teams descended upon a 52-acre mock town in College Station, Texas called Disaster City . They were there for a nine-day competition to see how well teams of robots and humans could navigate simulated…",
+  "url": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+  "source": "IEEE Spectrum Robotics",
+  "image": "https://spectrum.ieee.org/media-library/a-helmeted-woman-calling-out-to-a-quadruped-robot-during-a-simulated-field-disaster.jpg?id=68752154&width=980",
+  "published": "2026-11-25",
+  "added": "2026-11-27"
+ },
+ {
   "id": "news-d43a285e75",
   "kind": "news",
   "topic": "robotics",
